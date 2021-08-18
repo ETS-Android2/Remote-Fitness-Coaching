@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fitnesscoach"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.3.1] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.3.1] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:22-76
+16
+17    <application
+17-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:7:5-30:19
+18        android:allowBackup="true"
+18-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:9:9-43
+23        android:label="@string/app_name"
+23-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:10:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:11:9-54
+25        android:supportsRtl="true"
+25-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:12:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:13:9-40
+28        <activity android:name="com.example.fitnesscoach.Information" />
+28-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:14:9-49
+28-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:14:19-46
+29        <activity android:name="com.example.fitnesscoach.LoadWorkout" />
+29-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:15:9-49
+29-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:15:19-46
+30        <activity android:name="com.example.fitnesscoach.MainActivity" />
+30-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:16:9-50
+30-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:16:19-47
+31        <activity android:name="com.example.fitnesscoach.LoadWeb" />
+31-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:17:9-45
+31-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:17:19-42
+32        <activity android:name="com.example.fitnesscoach.Search" />
+32-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:18:9-44
+32-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:18:19-41
+33        <activity android:name="com.example.fitnesscoach.Login" >
+33-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:19:9-25:20
+33-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:19:19-40
+34            <intent-filter>
+34-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:20:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:21:17-69
+35-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:21:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:23:17-77
+37-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <meta-data
+41-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:27:9-29:57
+42            android:name="preloaded_fonts"
+42-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:28:13-43
+43            android:resource="@array/preloaded_fonts" />
+43-->/Users/adrianbalbuena/Desktop/FitnessCoach2/app/src/main/AndroidManifest.xml:29:13-54
+44
+45        <service
+45-->[com.google.firebase:firebase-database:19.3.1] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:29:9-35:19
+46            android:name="com.google.firebase.components.ComponentDiscoveryService"
+46-->[com.google.firebase:firebase-database:19.3.1] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:30:13-84
+47            android:directBootAware="true"
+47-->[com.google.firebase:firebase-common:19.3.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+48            android:exported="false" >
+48-->[com.google.firebase:firebase-database:19.3.1] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:31:13-37
+49            <meta-data
+49-->[com.google.firebase:firebase-database:19.3.1] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:32:13-34:85
+50                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+50-->[com.google.firebase:firebase-database:19.3.1] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:33:17-109
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-database:19.3.1] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:34:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:36:13-38:85
+53                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+53-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:37:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:38:17-82
+55        </service>
+56
+57        <activity
+57-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:24:9-31:50
+58            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+58-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:25:13-85
+59            android:excludeFromRecents="true"
+59-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:26:13-46
+60            android:exported="true"
+60-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:27:13-36
+61            android:launchMode="singleTask"
+61-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:28:13-44
+62            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+62-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:29:13-102
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.firebase:firebase-auth:19.3.2] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:30:13-72
+64
+65        <provider
+65-->[com.google.firebase:firebase-common:19.3.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+66            android:name="com.google.firebase.provider.FirebaseInitProvider"
+66-->[com.google.firebase:firebase-common:19.3.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+67            android:authorities="com.example.fitnesscoach.firebaseinitprovider"
+67-->[com.google.firebase:firebase-common:19.3.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+68            android:exported="false"
+68-->[com.google.firebase:firebase-common:19.3.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+69            android:initOrder="100" />
+69-->[com.google.firebase:firebase-common:19.3.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:17.1.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:17.1.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:17.1.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:17.1.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:17.0.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:17.0.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:17.0.0] /Users/adrianbalbuena/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+79    </application>
+80
+81</manifest>
